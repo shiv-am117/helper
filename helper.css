@@ -10,9 +10,6 @@ body{
 	padding-right: 5px;
 	height: 100%;
 	width: 100%;
-	
-	
-
 }
 
 .header{
@@ -26,7 +23,6 @@ body{
 	border:0px;
 	width: 100%;
 }
-
 .aside{
 	padding-left:15px;
 	margin-left: 10px;
@@ -56,15 +52,16 @@ body{
 	width: 70%;
 	display: inline-block;
 	color: black;
+	background-color: black;
 }
 .submain{
 	width: 100%;
-
+	cursor: pointer;
 	display: inline-block;
 	border: 5px solid black;
 	background-color: #333;
 }
-.webdlearn{
+.imagefront{
 	width: 200px;
 	height: 200px;
 	margin-left: 20px;
@@ -72,8 +69,15 @@ body{
 	margin-bottom: 10px;
 
 }
+a:hover{
+	text-decoration: none;
+}
 
 a{
 	color: white;
 
+}
+
+.submain:hover{
+	box-shadow: -3px -3px 10px white inset;
 }
